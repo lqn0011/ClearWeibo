@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ./imgs/personal_center.png
----
-
 # Clear weibo
 
 #### 介绍  
