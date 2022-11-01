@@ -1,0 +1,17 @@
+Uid: ${UID}
+Cookie: ${COOKIE}
+XXsrfToken: ${X_XSRF_TOKEN}
+Debug: ${DEBUG}
+
+#Resty为Http Client用于请求外部http api
+Resty:
+  TimeoutSeconds: 60
+  RetryCount: 1
+  Trace: false
+
+Log:
+  Lvl: 0 #DebugLevel(0), InfoLevel(1), WarnLevel(2), ErrorLevel(3), FatalLevel(4), PanicLevel(5), NoLevel(6), Disabled(7)
+  StdoutLog: true
+  FileLog: false
+  FileConfig:
+    Filename: ${LOG_FILENAME}
