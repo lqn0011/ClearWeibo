@@ -11,9 +11,9 @@ UID=xxx
 COOKIE=xxx=xxxx
 X_XSRF_TOKEN=xxx
 ```
-打开微博网页版http://weibo.com/，进入个人中心，打开浏览器调试模式：
+打开微博网页版 [微博 – 随时随地发现新鲜事 (weibo.com)](https://weibo.com/)，
 
-`最快捷的方法,快捷键 ctrl+shift+j(i) ，或者F12 就能进入调试模式`
+进入个人中心，打开浏览器调试模式：`最快捷的方法,快捷键 ctrl+shift+j(i) ，或者F12 就能进入调试模式`
 
 在搜索框中搜索mymblog关键词，找到请求，然后在标头中找到cookie，x-xsrf-token，x-log-uid
 
