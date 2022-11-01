@@ -19,11 +19,11 @@ X_XSRF_TOKEN=xxx
 
 获取这三个数值，填写到.env中。
 
-![personal](./imgs/personal.png)
+<img src="./imgs/personal.png" alt="personal" style="zoom: 25%;" />
 
-![personal_center](./imgs/xsrf_token.png)
+<img src="./imgs/xsrf_token.png" alt="personal_center" style="zoom: 50%;" />
 
-![personal_center](./imgs/uid.png)
+<img src="./imgs/uid.png" alt="personal_center" style="zoom: 25%;" />
 
 
 3. `go run clean-wb.go`
